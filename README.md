@@ -134,8 +134,8 @@ Created 20 products...
 ✅ Database seeded successfully!
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Test Credentials:
-  Admin:    admin@agilemarket.com  /  AdminTest34!
-  Customer: bcevik@agilemarket.com   /  BcevikTest34!
+  Admin:    admin@agilemarket.com  /  
+  Customer: bcevik@agilemarket.com   /  
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
@@ -166,8 +166,8 @@ Client will run on: `http://localhost:3000`
 
 | Role     | Email              | Password  |
 |----------|--------------------|-----------|
-| Admin    | admin@agilemarket.com    | AdminTest34! |
-| Customer | bcevik@agilemarket.com     | BcevikTest34!  |
+| Admin    | admin@agilemarket.com    |  |
+| Customer | bcevik@agilemarket.com     |   |
 
 ---
 
