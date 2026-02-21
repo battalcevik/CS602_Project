@@ -1,0 +1,9 @@
+const app = require('./app');
+
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log(`\n🚀 Server running on http://localhost:${PORT}`);
+  console.log(`📦 REST API: http://localhost:${PORT}/api`);
+  console.log(`🔷 GraphQL: http://localhost:${PORT}/graphql\n`);
+});

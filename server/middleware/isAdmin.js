@@ -1,0 +1,8 @@
+const isAdmin = (req, res, next) => {
+  if (req.isAuthenticated() && req.user.role === 'admin') {
+    return next();
+  }
+  return res.status(403).json({ success: false, message: 'Access denied. Admin privileges required.' });
+};
+
+module.exports = isAdmin;
